@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".pantalla3">
+
+    <Button
+        android:id="@+id/btn13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="SIGUIENTE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.874"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn12" />
+
+    <ImageButton
+        android:id="@+id/btn8"
+        android:layout_width="167dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sei" />
+
+    <ImageButton
+        android:id="@+id/btn9"
+        android:layout_width="159dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="33dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn8"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/siete" />
+
+    <ImageButton
+        android:id="@+id/btn10"
+        android:layout_width="161dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn8"
+        app:srcCompat="@drawable/ocho" />
+
+    <ImageButton
+        android:id="@+id/btn11"
+        android:layout_width="161dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn10"
+        app:layout_constraintTop_toBottomOf="@+id/btn9"
+        app:srcCompat="@drawable/nueve" />
+
+    <ImageButton
+        android:id="@+id/btn12"
+        android:layout_width="167dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn10"
+        app:srcCompat="@drawable/dies" />
+
+    <Button
+        android:id="@+id/btn14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="108dp"
+        android:text="REGRESAR"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn12" />
+</androidx.constraintlayout.widget.ConstraintLayout>
